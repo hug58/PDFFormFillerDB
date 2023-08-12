@@ -69,11 +69,16 @@ def check_environment_variables() -> bool:
 def main():
     '''fill out form with data from database'''
     load_dotenv()
+    
     if not check_environment_variables():
         return  
 
     pdf_file = pdfrw.PdfReader(os.getenv("FILENAME"))
-    db_mysql = database.Database(os.getenv('DATABASE_HOST'), os.getenv('DATABASE_USERNAME'), os.getenv('DATABASE_PASSWORD'), os.getenv('DATABASE_NAME'))
+    db_mysql = database.Database(
+                                os.getenv('DATABASE_HOST'),
+                                os.getenv('DATABASE_USERNAME'), 
+                                os.getenv('DATABASE_PASSWORD'), 
+                                os.getenv('DATABASE_NAME'))
 
     forms = database.Forms(db_mysql).get_forms()
     for form in forms:
