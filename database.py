@@ -57,12 +57,3 @@ class Forms:
         query = "SELECT * FROM form"
         return self.database.get_data(query)
 
-
-# Ejemplo de uso
-# db = Database('localhost', 'tu_usuario', 'tu_contraseña', 'tu_base_de_datos')
-# db.connect()
-# data = db.get_data('SELECT * FROM tabla')
-# print(data)
-# db.insert_data('INSERT INTO tabla (col1, col2) VALUES (%s, %s)',
-#                ('valor1', 'valor2'))
-# db.close()
