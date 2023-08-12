@@ -62,7 +62,7 @@ def check_environment_variables() -> bool:
     # Check if each variable is defined
     for env in envs:
         if os.getenv(env) is None:
-            print(f"La variable de entorno {env} no está definida.")
+            print(f"The environment variable {env} is not set.")
             return False
     return True
 
