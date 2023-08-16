@@ -1,9 +1,7 @@
 
 CREATE DATABASE IF NOT EXISTS reports;
 
--- Utilizar la base de datos
 USE reports;
-
 
 
 CREATE TABLE IF NOT EXISTS form (
