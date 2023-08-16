@@ -39,9 +39,9 @@ CREATE TABLE IF NOT EXISTS form (
 
 INSERT INTO form (Fecha, Nombre_establecimiento, Direccion, Localidad, Provincia, Persona_contacto, Telefono_contacto, email, Check_Cajero, Check_datafono, CP, Retorno_grupo, comision, porcentaje_retorno, Sector_actividad, Aportacion_fondo_grupo, Metodo_reposicion_grupo, Fondo_inicial, Nombre_empresa, CIF, CP_2, Direccion_Fiscal, Localidad_2, Provincia_2, Nombre_administrador, DNI_administrador)
 VALUES 
-('2023-08-11', 'Establecimiento 1', 'Calle 1', 'Ciudad 1', 'Provincia 1', 'Persona 1', '111111111', 'email1@example.com', 'Sí', 'Off', '12345', 'Sí', '10%', '20%', 'Sector 1', 'Cliente', 'Loomis', '5000', 'Empresa 1', 'CIF1', '54321', 'Calle 2', 'Ciudad 2', 'Provincia 2', 'Administrador 1', 'DNI1'),
-('2023-08-10', 'Establecimiento 2', 'Calle 3', 'Ciudad 3', 'Provincia 3', 'Persona 2', '222222222', 'email2@example.com', 'Off', 'Sí', '67890', 'NO', '5%', '10%', 'Sector 2', 'Cliente', 'Transferencia', '3000', 'Empresa 2', 'CIF2', '09876', 'Calle 4', 'Ciudad 4', 'Provincia 4', 'Administrador 2', 'DNI2'),
-('2023-08-09', 'Establecimiento 3', 'Calle 5', 'Ciudad 5', 'Provincia 5', 'Persona 3', '333333333', 'email3@example.com', 'Sí', 'Sí', '13579', 'Sí', '15%', '15%', 'Sector 3', 'Nosotros', 'Tarjeta', '4000', 'Empresa 3', 'CIF3', '24680', 'Calle 6', 'Ciudad 6', 'Provincia 6', 'Administrador 3', 'DNI3');
+('2023-08-11', 'Establecimiento 1', 'Calle 1', 'Ciudad 1', 'Provincia 1', 'Persona 1', '111111111', 'email1@example.com', 'Sí', 'Off', '12345', 'Sí', '10%', '20', 'Sector 1', 'Cliente', 'Loomis', '5000', 'Empresa 1', 'CIF1', '54321', 'Calle 2', 'Ciudad 2', 'Provincia 2', 'Administrador 1', 'DNI1'),
+('2023-08-10', 'Establecimiento 2', 'Calle 3', 'Ciudad 3', 'Provincia 3', 'Persona 2', '222222222', 'email2@example.com', 'Off', 'Sí', '67890', 'NO', '5%', '10', 'Sector 2', 'Cliente', 'Transferencia', '3000', 'Empresa 2', 'CIF2', '09876', 'Calle 4', 'Ciudad 4', 'Provincia 4', 'Administrador 2', 'DNI2'),
+('2023-08-09', 'Establecimiento 3', 'Calle 5', 'Ciudad 5', 'Provincia 5', 'Persona 3', '333333333', 'email3@example.com', 'Sí', 'Sí', '13579', 'Sí', '15%', '15', 'Sector 3', 'Nosotros', 'Tarjeta', '4000', 'Empresa 3', 'CIF3', '24680', 'Calle 6', 'Ciudad 6', 'Provincia 6', 'Administrador 3', 'DNI3');
 
 
 -- (Fecha)
